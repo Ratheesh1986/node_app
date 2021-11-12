@@ -6,11 +6,9 @@ WORKDIR /usr/apps/hello-docker/
 
 RUN apt-get -y update
 
-RUN sudo apt install nodejs
+RUN apt install nodejs
 
-
-RUN sudo apt install npm
-
+RUN apt install npm
 
 #RUN ln -s /usr/bin/nodejs /usr/bin/node........;;;;;
 
